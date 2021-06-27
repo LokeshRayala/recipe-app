@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.input-search {
+  padding: 0.8rem;
+  width: 20rem;
+  color: #1c2042;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.btn-submit {
+  padding: 0.8rem 1.2rem;
+  background-color: #1c2042;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: 1px solid #1c2042;
+  cursor: pointer;
+}
